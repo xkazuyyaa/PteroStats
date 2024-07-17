@@ -25,10 +25,10 @@ message:
   attachment: "" # If you enable attachment on message it will upload the attachment first before sending or editing message and will result in delayed stats
 
 embed:
-  title: "PteroStats"
+  title: "Status of all Nodes"
   color: "5865F2"
-  description: "Next update {{time}}" # You can use {{time}} to make "in X seconds" time format
-  footer: "By Hirzi#8701"
+  description: "Next health check {{time}}" # You can use {{time}} to make "in X seconds" time format
+  footer: "This overview shows the entire Node-Network of the YokiHost-panel"
   timestamp: true
   thumbnail: ""
   image: ""
@@ -40,13 +40,13 @@ embed:
 button:
   enable: true
   btn1:
-    label: "PteroStats"
+    label: "Status"
     url: "https://github.com/HirziDevs/PteroStats"
   btn2:
-    label: ""
+    label: "to Panel"
     url: ""
   btn3:
-    label: ""
+    label: "Tickets"
     url: ""
   btn4:
     label: ""
@@ -58,8 +58,8 @@ button:
 # Status Message Configuration
 # How to use custom emoji: https://github.com/HirziDevs/PteroStats#using-custom-emoji
 status:
-  online: ":green_circle: Online"
-  offline: ":red_circle: Offline"
+  online: "<:online:1263147489104629801> Online"
+  offline: "<:offline:1263147491310964780> Offline"
 
 # Nodes Settings
 # How to get nodes id: https://github.com/HirziDevs/PteroStats#blacklist-nodes
