@@ -41,13 +41,13 @@ button:
   enable: true
   btn1:
     label: "Status"
-    url: "https://github.com/HirziDevs/PteroStats"
+    url: "https://status.yokihost.com"
   btn2:
     label: "to Panel"
-    url: ""
+    url: "https://panel.yokihost.com"
   btn3:
     label: "Tickets"
-    url: ""
+    url: "https://panel.yokihost.com/tickets"
   btn4:
     label: ""
     url: ""
