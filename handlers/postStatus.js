@@ -184,7 +184,7 @@ module.exports = async ({ client, panel, nodes }) => {
       if (client.config.panel_settings.users) {
         stats =
           stats +
-          "Users: " +
+          "<:member:1263149521722933278> Users: " +
           String(panel.total_users).replace("-1", "`Unknown`") +
           "\n";
       }
@@ -192,7 +192,7 @@ module.exports = async ({ client, panel, nodes }) => {
       if (client.config.panel_settings.servers) {
         stats =
           stats +
-          "Servers: " +
+          "<:servers:1263149531009384669> Servers: " +
           String(panel.total_servers).replace("-1", "`Unknown`");
       }
 
